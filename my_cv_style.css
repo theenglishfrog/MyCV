@@ -1,0 +1,71 @@
+﻿/*
+  Feuille de style du CV
+*/
+
+/* définition de polices de caractères particulières */
+@font-face
+  {
+    font-family: 'bella_fontregular';
+    src: url('fonts/bellafont-webfont.woff2') format('woff2'),
+         url('fonts/bellafont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'agentregular';
+    src: url('fonts/agent-webfont.woff2') format('woff2'),
+         url('fonts/agent-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'znikomitno24regular';
+    src: url('fonts/znikomitno24-webfont.woff2') format('woff2'),
+         url('fonts/znikomitno24-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body
+  {
+    background-image:url(back_img27.jpg);
+    font-family: 'Times new roman', serif;
+    color: black;
+    /* background-image:url(back_img26.jpg);*/
+  }
+
+h1
+  {
+    font-family:'bella_fontregular';
+    font-size:4em;
+    font-weight:bold;
+    color:#FFFFFF;
+    text-align:center;
+  }
+
+
+h2
+  {
+    color:#0000AA;
+    font-size:1.75em;
+    text-shadow: 1px 1px 0 #00FFFF;
+   }
+
+.imagecv
+  {
+    float:left;
+  }
+
+.subtitre
+  {
+    clear:both;
+    font-family:'znikomitno24regular';
+    font-size:0.5em;
+    text-align:center;
+    color: black;
+    border: 2px #00FFFF solid;
+    box-shadow:10px 10px 4px #0000FF;
+    border-radius:10px;    
+  }
