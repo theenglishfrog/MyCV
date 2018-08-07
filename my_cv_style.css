@@ -40,9 +40,10 @@ h1
   {
     font-family:'bella_fontregular';
     font-size:4em;
-    font-weight:bold;
-    color:#FFFFFF;
     text-align:center;
+    font-weight:bold;
+/*    color:#FFFFFF; */
+    color:#FF00FF; 
   }
 
 
