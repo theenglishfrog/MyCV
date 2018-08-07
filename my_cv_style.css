@@ -49,7 +49,8 @@ h1
 
 h2
   {
-    color:#0000AA;
+    /* color:#0000AA; */
+    color: #00AAAA;
     font-size:1.75em;
     text-shadow: 1px 1px 0 #00FFFF;
    }
